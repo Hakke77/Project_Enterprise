@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise – Login/Registrering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Logga in</h1>
+
+    <form id="loginForm">
+        <input id="loginEmail" type="email" placeholder="Email" required>
+        <input id="loginPassword" type="password" placeholder="Lösenord" required>
+        <button type="submit" class="btn">Logga in</button>
+    </form>
+
+    <h2>Har du inget konto?</h2>
+
+    <form id="registerForm">
+        <input id="regUsername" type="text" placeholder="Användarnamn" required>
+        <input id="regEmail" type="email" placeholder="Email" required>
+        <input id="regPassword" type="password" placeholder="Lösenord" required>
+        <button type="submit" class="btn">Registrera</button>
+    </form>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
